@@ -1,0 +1,117 @@
+/**
+ * Top Level Panels
+ */
+
+.seg-panel{
+    box-sizing: border-box;
+    max-width: 1260px;
+
+    margin-bottom: 25px;
+    background-color: #fff;
+
+    border-radius: 2px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid #cad5dd;
+    padding: 20px;
+    position: relative;
+}
+/* --------------------------------------------------------
+ * Alerts and Notices
+ * -------------------------------------------------------- */
+.seg-notice{
+    box-sizing: border-box;
+    margin: 5px 0 15px;
+
+    background: #fff;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    padding: 1px 12px;
+
+    /* Set up our flexbox */
+    position: relative;
+    max-width: 1260px;
+
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+
+    min-height: 0;
+}
+
+.seg-notice.seg-success{ border-left-color: #4bbecc; }
+.seg-notice.seg-error{ border-left-color: #dc3232; }
+.seg-notice.seg-warning{ border-left-color: #fdc430; }
+
+.seg-notice .seg-content{
+    flex: 1 1 auto;
+    margin: 12px;
+}
+.seg-notice h3{ margin-bottom: 0.5em;}
+.seg-notice p{ margin-top: 0; }
+
+
+/* --------------------------------------------------------
+ * Marketing Signup Block
+ * -------------------------------------------------------- */
+
+.seg-signup-block{
+    max-width: 500px;
+
+}
+.seg-signup-block h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a75bc;
+    margin: 0;
+    text-transform: uppercase;
+}
+.seg-signup-block h2{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------
+ * Buttons
+ * -------------------------------------------------------- */
+.seg-btn.cta{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.6;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    color: #fff;
+    background-color: #f42156;
+    border-color: #f00c45;
+    text-decoration: none;
+
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    text-transform: none;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 0;
+    box-shadow: 0px 3px 0px 0px #a70830;
+}
